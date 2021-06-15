@@ -1,0 +1,128 @@
+[
+    {
+        "id": 0,
+        "name": "Lebron James",
+        "position": ["SF" , "PF"],
+        "power" : 97
+    },
+    {
+        "id": 1,
+        "name": "Kevin Durant" ,
+        "position": ["SF"],
+        "power" : 97
+    },
+    {
+        "id": 2,
+        "name": "Stephen Curry" ,
+        "position": ["PG"],
+        "power": 95
+    },
+    {
+        "id": 3,
+        "name":"Kylie Irving" ,
+        "position": ["PG"],
+        "power": 95
+    },
+    {
+        "id":4,
+        "name": "James Harden",
+        "position": ["PG","SG"],
+        "power": 94
+    },
+    {
+        "id": 5,
+        "name": "Joel Embid",
+        "position": ["C"],
+        "power": 94
+    },
+    {
+        "id": 6,
+        "name": "Giannis Antetokoumpo",
+        "position": ["PF" , "SF"],
+        "power": 95
+    },
+    {
+        "id": 7,
+        "name": "Damian Lillard",
+        "position": ["PG"],
+        "power": 94
+    },
+    {
+        "id": 8,
+        "name": "Jayson Tatum",
+        "position": ["SF", "PF"],
+        "power": 90
+    },
+    {
+        "id": 9,
+        "name": "Kawhi Leonard",
+        "position": ["SF" , "SG"],
+        "power": 95
+    },
+    {
+        "id": 10,
+        "name": "Paul George",
+        "position": ["SG" , "SF"],
+        "power": 92
+    },
+    {
+        "id": 11,
+        "name": "Antony Davis",
+        "position": ["C" ,"PF"],
+        "power": 94
+    },
+    {
+        "id": 12,
+        "name":"CJ Mccollum",
+        "position": ["SG"],
+        "power": 87
+    },
+    {
+        "id": 13,
+        "name": "Trae Young",
+        "position": ["PG"],
+        "power": 86
+    },
+    {
+        "id": 14,
+        "name": "Ben Simmons",
+        "position": ["PG", "SG", "SF"],
+        "power": 85
+    },
+    {
+        "id" : 15,
+        "name": "Zach LaVine",
+        "position": ["SG","SF"],
+        "power": 87
+    },
+    {
+        "id": 16,
+        "name": "Jaylen Brown",
+        "position": ["SG" , "SF"],
+        "power": 86
+    },
+    {
+        "id": 17,
+        "name":"Dwight Howard",
+        "position": ["C"],
+        "power": 80
+    },
+    {
+        "id": 18,
+        "name": "Devin Booker",
+        "position": ["SG","SF"],
+        "power": 87
+    },
+    {
+        "id": 19,
+        "name":"Luka Doncic",
+        "position": ["SG","SF"],
+        "power": 95
+    },
+    {
+        "id": 20,
+        "name": "Kristaz Porzingis",
+        "position": ["C"],
+        "power": 87
+    }
+]
