@@ -44,19 +44,19 @@ const Court = () => {
         if (isPrevPlayerClicked !== undefined) {
             isPrevPlayerClicked.isClicked = false
         }
-        const foundPlayerPositionIndex = players.findIndex(playerPos => playerPos.position == position)
+        const foundPlayerPositionIndex = players.findIndex(playerPos => playerPos.position === position)
         players[foundPlayerPositionIndex].isClicked = true
         setPlayers([...players])
     }
 
     const handleChangePlayer = (player) => {
-        if (player.position.length == 1) {
-            const foundPlayerPositionIndex = players.findIndex(playerPos => playerPos.position == player.position)
+        if (player.position.length === 1) {
+            const foundPlayerPositionIndex = players.findIndex(playerPos => playerPos.position === player.position[0])
             players[foundPlayerPositionIndex].isClicked = false;
             players[foundPlayerPositionIndex].name = player.name
         } else {
             player.position.forEach(pos => {
-                const newPlayer = players.findIndex(y => y.position == pos)
+                const newPlayer = players.findIndex(y => y.position === pos)
                 if (players[newPlayer].isClicked) {
                     players[newPlayer].isClicked = false;
                     players[newPlayer].name = player.name

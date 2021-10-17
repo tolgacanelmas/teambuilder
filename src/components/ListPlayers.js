@@ -2,7 +2,7 @@ import React from 'react'
 
 const ListPlayers = ({ suitedPlayers = [], handleChangePlayer }) => {
 
-    if (suitedPlayers.length == 0) return null
+    if (suitedPlayers.length === 0) return null
 
     return (
         <ul className="player-list">

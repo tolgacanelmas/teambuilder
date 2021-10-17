@@ -3,126 +3,168 @@
         "id": 0,
         "name": "Lebron James",
         "position": ["SF" , "PF"],
-        "power" : 97
+        "power" : 97,
+        "3PT" : 40,
+        "2PT": 55
     },
     {
         "id": 1,
         "name": "Kevin Durant" ,
         "position": ["SF"],
-        "power" : 97
+        "power" : 97,
+        "3PT": 42,
+        "2PT": 52
     },
     {
         "id": 2,
         "name": "Stephen Curry" ,
         "position": ["PG"],
-        "power": 95
+        "power": 95,
+        "3PT": 46,
+        "2PT": 45
     },
     {
         "id": 3,
         "name":"Kylie Irving" ,
         "position": ["PG"],
-        "power": 95
+        "power": 95,
+        "3PT": 42,
+        "2PT": 50
     },
     {
         "id":4,
         "name": "James Harden",
         "position": ["PG","SG"],
-        "power": 94
+        "power": 94,
+        "3PT": 43,
+        "2PT": 40
     },
     {
         "id": 5,
         "name": "Joel Embid",
         "position": ["C"],
-        "power": 94
+        "power": 94,
+        "3PT": 39,
+        "2PT": 48
     },
     {
         "id": 6,
         "name": "Giannis Antetokoumpo",
         "position": ["PF" , "SF"],
-        "power": 95
+        "power": 95,
+        "3PT": 36,
+        "2PT": 55
     },
     {
         "id": 7,
         "name": "Damian Lillard",
         "position": ["PG"],
-        "power": 94
+        "power": 94,
+        "3PT": 43,
+        "2PT": 41
     },
     {
         "id": 8,
         "name": "Jayson Tatum",
         "position": ["SF", "PF"],
-        "power": 90
+        "power": 90,
+        "3PT": 40,
+        "2PT": 45
     },
     {
         "id": 9,
         "name": "Kawhi Leonard",
         "position": ["SF" , "SG"],
-        "power": 95
+        "power": 95,
+        "3PT": 41,
+        "2PT": 46
     },
     {
         "id": 10,
         "name": "Paul George",
         "position": ["SG" , "SF"],
-        "power": 92
+        "power": 92,
+        "3PT": 42,
+        "2PT": 42
     },
     {
         "id": 11,
         "name": "Antony Davis",
         "position": ["C" ,"PF"],
-        "power": 94
+        "power": 94,
+        "3PT": 37,
+        "2PT": 46
     },
     {
         "id": 12,
         "name":"CJ Mccollum",
         "position": ["SG"],
-        "power": 87
+        "power": 87,
+        "3PT": 40,
+        "2PT": 41
     },
     {
         "id": 13,
         "name": "Trae Young",
         "position": ["PG"],
-        "power": 86
+        "power": 86,
+        "3PT": 42,
+        "2PT": 42
     },
     {
         "id": 14,
         "name": "Ben Simmons",
         "position": ["PG", "SG", "SF"],
-        "power": 85
+        "power": 85,
+        "3PT": 25,
+        "2PT": 40
     },
     {
         "id" : 15,
         "name": "Zach LaVine",
         "position": ["SG","SF"],
-        "power": 87
+        "power": 87,
+        "3PT": 40,
+        "2PT": 45
     },
     {
         "id": 16,
         "name": "Jaylen Brown",
         "position": ["SG" , "SF"],
-        "power": 86
+        "power": 86,
+        "3PT": 41,
+        "2PT": 42
     },
     {
         "id": 17,
         "name":"Dwight Howard",
         "position": ["C"],
-        "power": 80
+        "power": 80,
+        "3PT": 22,
+        "2PT": 42
     },
     {
         "id": 18,
         "name": "Devin Booker",
         "position": ["SG","SF"],
-        "power": 87
+        "power": 87,
+        "3PT": 40,
+        "2PT": 45
     },
     {
         "id": 19,
         "name":"Luka Doncic",
         "position": ["SG","SF"],
-        "power": 95
+        "power": 95,
+        "3PT": 40,
+        "2PT": 48
     },
     {
         "id": 20,
         "name": "Kristaz Porzingis",
         "position": ["C"],
-        "power": 87
+        "power": 87,
+        "3PT": 39,
+        "2PT": 42
     }
 ]
