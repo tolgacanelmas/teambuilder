@@ -4,167 +4,167 @@
         "name": "Lebron James",
         "position": ["SF" , "PF"],
         "power" : 97,
-        "3PT" : 40,
-        "2PT": 55
+        "threePointAvarage" : 40,
+        "twoPointAvarage": 55
     },
     {
         "id": 1,
         "name": "Kevin Durant" ,
         "position": ["SF"],
         "power" : 97,
-        "3PT": 42,
-        "2PT": 52
+        "threePointAvarage": 42,
+        "twoPointAvarage": 52
     },
     {
         "id": 2,
         "name": "Stephen Curry" ,
         "position": ["PG"],
         "power": 95,
-        "3PT": 46,
-        "2PT": 45
+        "threePointAvarage": 46,
+        "twoPointAvarage": 45
     },
     {
         "id": 3,
         "name":"Kylie Irving" ,
         "position": ["PG"],
         "power": 95,
-        "3PT": 42,
-        "2PT": 50
+        "threePointAvarage": 42,
+        "twoPointAvarage": 50
     },
     {
         "id":4,
         "name": "James Harden",
         "position": ["PG","SG"],
         "power": 94,
-        "3PT": 43,
-        "2PT": 40
+        "threePointAvarage": 43,
+        "twoPointAvarage": 40
     },
     {
         "id": 5,
         "name": "Joel Embid",
         "position": ["C"],
         "power": 94,
-        "3PT": 39,
-        "2PT": 48
+        "threePointAvarage": 39,
+        "twoPointAvarage": 48
     },
     {
         "id": 6,
         "name": "Giannis Antetokoumpo",
         "position": ["PF" , "SF"],
         "power": 95,
-        "3PT": 36,
-        "2PT": 55
+        "threePointAvarage": 36,
+        "twoPointAvarage": 55
     },
     {
         "id": 7,
         "name": "Damian Lillard",
         "position": ["PG"],
         "power": 94,
-        "3PT": 43,
-        "2PT": 41
+        "threePointAvarage": 43,
+        "twoPointAvarage": 41
     },
     {
         "id": 8,
         "name": "Jayson Tatum",
         "position": ["SF", "PF"],
         "power": 90,
-        "3PT": 40,
-        "2PT": 45
+        "threePointAvarage": 40,
+        "twoPointAvarage": 45
     },
     {
         "id": 9,
         "name": "Kawhi Leonard",
         "position": ["SF" , "SG"],
         "power": 95,
-        "3PT": 41,
-        "2PT": 46
+        "threePointAvarage": 41,
+        "twoPointAvarage": 46
     },
     {
         "id": 10,
         "name": "Paul George",
         "position": ["SG" , "SF"],
         "power": 92,
-        "3PT": 42,
-        "2PT": 42
+        "threePointAvarage": 42,
+        "twoPointAvarage": 42
     },
     {
         "id": 11,
         "name": "Antony Davis",
         "position": ["C" ,"PF"],
         "power": 94,
-        "3PT": 37,
-        "2PT": 46
+        "threePointAvarage": 37,
+        "twoPointAvarage": 46
     },
     {
         "id": 12,
         "name":"CJ Mccollum",
         "position": ["SG"],
         "power": 87,
-        "3PT": 40,
-        "2PT": 41
+        "threePointAvarage": 40,
+        "twoPointAvarage": 41
     },
     {
         "id": 13,
         "name": "Trae Young",
         "position": ["PG"],
         "power": 86,
-        "3PT": 42,
-        "2PT": 42
+        "threePointAvarage": 42,
+        "twoPointAvarage": 42
     },
     {
         "id": 14,
         "name": "Ben Simmons",
         "position": ["PG", "SG", "SF"],
         "power": 85,
-        "3PT": 25,
-        "2PT": 40
+        "threePointAvarage": 25,
+        "twoPointAvarage": 40
     },
     {
         "id" : 15,
         "name": "Zach LaVine",
         "position": ["SG","SF"],
         "power": 87,
-        "3PT": 40,
-        "2PT": 45
+        "threePointAvarage": 40,
+        "twoPointAvarage": 45
     },
     {
         "id": 16,
         "name": "Jaylen Brown",
         "position": ["SG" , "SF"],
         "power": 86,
-        "3PT": 41,
-        "2PT": 42
+        "threePointAvarage": 41,
+        "twoPointAvarage": 42
     },
     {
         "id": 17,
         "name":"Dwight Howard",
         "position": ["C"],
         "power": 80,
-        "3PT": 22,
-        "2PT": 42
+        "threePointAvarage": 22,
+        "twoPointAvarage": 42
     },
     {
         "id": 18,
         "name": "Devin Booker",
         "position": ["SG","SF"],
         "power": 87,
-        "3PT": 40,
-        "2PT": 45
+        "threePointAvarage": 40,
+        "twoPointAvarage": 45
     },
     {
         "id": 19,
         "name":"Luka Doncic",
         "position": ["SG","SF"],
         "power": 95,
-        "3PT": 40,
-        "2PT": 48
+        "threePointAvarage": 40,
+        "twoPointAvarage": 48
     },
     {
         "id": 20,
         "name": "Kristaz Porzingis",
         "position": ["C"],
         "power": 87,
-        "3PT": 39,
-        "2PT": 42
+        "threePointAvarage": 39,
+        "twoPointAvarage": 42
     }
 ]

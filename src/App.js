@@ -1,5 +1,4 @@
 import './index.css'
-import Score from './components/Score';
 import Court from './components/Court'
 function App() {
   return (
@@ -9,7 +8,6 @@ function App() {
         <h2>BUİLD YOUR OWN TEAM</h2>
       </header>
       <div className="container">
-        <Score />
         <Court />
       </div>
     </div>

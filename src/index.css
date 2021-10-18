@@ -16,11 +16,11 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #eeeeee;
 }
 
 #root,
@@ -29,25 +29,30 @@ body {
   width: 100%;
 }
 
-h3{
+h3 {
   font-size: 30px;
 }
-h4{
+h4 {
   font-size: 26px;
 }
 
 header {
   text-align: center;
-  background: #051c2d;
+  background-color: #222831;
   padding: 20px 0px;
   color: #fff;
   text-shadow: 1px 2px 2px #b52532;
+  margin-bottom: 20px;
 }
 
 .container {
   height: 700px;
   width: 1170px;
   margin: auto;
+}
+
+.container > div {
+  height: 100%;
 }
 
 .container img {
@@ -58,22 +63,59 @@ header {
 .score-container {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(30 29 40);
+  background-color: #222831;
   color: #fff;
   padding: 20px 30px;
 }
 
-.score{
-  text-align: center;
+.score-container .line-players {
+  display: flex;
+  flex-direction: column;
 }
 
+.score-container .line-players > div {
+  border: 1px solid #fff;
+  margin-bottom: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
 
-.score h4 {
+.score {
+  display: flex;
+  text-align: center;
+  width: 33%;
+}
+
+.score-table {
+  margin-right: 40px;
+}
+
+.score h2 {
   border: 1px solid #fff;
   display: inline-block;
   padding: 3px 7px;
   border-radius: 4px;
   margin-top: 5px;
+  font-size: 45px;
+}
+
+.players-to-do.active {
+  display: block;
+}
+
+.options{
+  display: flex;
+}
+
+.options p {
+  border: 1px solid #fff;
+  padding: 5px;
+  margin: 20px 10px;
+  cursor: pointer;
+}
+
+.players-to-do {
+  display: none;
 }
 
 .court {
@@ -109,7 +151,6 @@ header {
   width: 100%;
   align-items: center;
 }
-
 
 .player {
   border-radius: 50%;
@@ -158,7 +199,6 @@ header {
   position: absolute;
   bottom: 30px;
   right: 0px;
-
 }
 
 .pf {

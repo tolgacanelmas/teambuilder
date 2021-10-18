@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import '../index.css'
 import playersJson from '../assets/players.json'
 import Player from './Player'
+import Score from './Score';
 
 const Court = () => {
     const [players, setPlayers] = useState([
@@ -9,31 +10,41 @@ const Court = () => {
             name: "Point Guard",
             position: "PG",
             isClicked: false,
-            class: "pg"
+            class: "pg",
+            threePointAvarage: null,
+            twoPointAvarage: null
         },
         {
             name: "Shooting Guard",
             position: "SG",
             isClicked: false,
-            class: "sg"
+            class: "sg",
+            threePointAvarage: null,
+            twoPointAvarage: null
         },
         {
             name: "Shooting Forward",
             position: "SF",
             isClicked: false,
-            class: "sf"
+            class: "sf",
+            threePointAvarage: null,
+            twoPointAvarage: null
         },
         {
             name: "Power Forward",
             position: "PF",
             isClicked: false,
-            class: "pf"
+            class: "pf",
+            threePointAvarage: null,
+            twoPointAvarage: null
         },
         {
             name: "Center",
             position: "C",
             isClicked: false,
-            class: "c"
+            class: "c",
+            threePointAvarage: null,
+            twoPointAvarage: null
         }
     ])
 
@@ -54,12 +65,16 @@ const Court = () => {
             const foundPlayerPositionIndex = players.findIndex(playerPos => playerPos.position === player.position[0])
             players[foundPlayerPositionIndex].isClicked = false;
             players[foundPlayerPositionIndex].name = player.name
+            players[foundPlayerPositionIndex].threePointAvarage = player.threePointAvarage
+            players[foundPlayerPositionIndex].twoPointAvarage = player.twoPointAvarage
         } else {
             player.position.forEach(pos => {
                 const newPlayer = players.findIndex(y => y.position === pos)
                 if (players[newPlayer].isClicked) {
                     players[newPlayer].isClicked = false;
                     players[newPlayer].name = player.name
+                    players[newPlayer].threePointAvarage = player.threePointAvarage
+                    players[newPlayer].twoPointAvarage = player.twoPointAvarage
                 }
             })
         }
@@ -74,26 +89,29 @@ const Court = () => {
     }, [players])
 
     return (
-        <div className="court">
-            <div className="players">
-                <div className="players-outside">
-                    {
-                        players.map((player, i) => {
-                            return (
-                                <Player
-                                    key={i}
-                                    player={player}
-                                    class={player.class}
-                                    handlelistPlayers={handlelistPlayers}
-                                    suitedPlayers={suitedPlayers}
-                                    handleChangePlayer={handleChangePlayer} />
-                            )
-                        })
-                    }
+        <div>
+            <Score players={players} />
+            <div className="court">
+                <div className="players">
+                    <div className="players-outside">
+                        {
+                            players.map((player, i) => {
+                                return (
+                                    <Player
+                                        key={i}
+                                        player={player}
+                                        class={player.class}
+                                        handlelistPlayers={handlelistPlayers}
+                                        suitedPlayers={suitedPlayers}
+                                        handleChangePlayer={handleChangePlayer} />
+                                )
+                            })
+                        }
+                    </div>
                 </div>
             </div>
-
         </div>
+
     )
 }
 
